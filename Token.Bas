@@ -22,7 +22,7 @@
  // InitializePrivate initializes a private SC
      Function InitializePrivate() Uint64
      10  STORE("owner", SIGNER())   // Store in DB  ["owner"] = address
-30  SEND_ASSET_TO_ADDRESS(SIGNER(), 14400000000, SCID())   // Gives initial encrypted balance of 144,000.
+30  SEND_ASSET_TO_ADDRESS(SIGNER(), 14393800000, SCID())   // Gives initial encrypted balance of 143,938.
      40  RETURN 0
      End Function
 
