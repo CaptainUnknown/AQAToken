@@ -2,7 +2,7 @@ const http = require('http')
 const port = 3000
 
 const server = http.createServer(function(req, res) {
-    res.ret('Hello node')
+    res.write('Hello node')
     res.end()
 
 })
